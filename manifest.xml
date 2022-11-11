@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Fetching Sources -->
+        
+        <remote name="ImSurajx"
+                fetch="https://github.com/ImSurajx" />
+
+        <remote name="Stable-Stuffs"
+                fetch="https://github.com/Stable-Stuffs" />
+
+        <remote name="ImSurajxD" 
+                fetch="https://gitlab.com/ImSurajxD" />
+       
+<!-- Device Trees -->
+
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImSurajx" revision="12L" />
+        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImSurajx" revision="12L" />
+        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender" remote="ImSurajx" revision="12L" clone-depth="1" />
+        
+<!-- Replacement -->
+
+        <remove-project name="vendor_aosp" />
+        <project path="vendor/aosp" name="vendor_aosp" remote="Stable-Stuffs" revision="twelve-plus" />
+
+<!-- Extra's -->
+
+        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
+        
+</manifest>
