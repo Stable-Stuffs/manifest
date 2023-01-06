@@ -8,7 +8,13 @@
 
         <remote name="Stable-Stuffs"
                 fetch="https://github.com/Stable-Stuffs" />
-       
+
+        <remote name="arrow"
+                fetch="https://github.com/ArrowOS" />
+         
+	<remote name="home_lab"
+                fetch="https://gitlab.com/sanjeevstunner"/>
+              
 <!-- Device Trees -->
 
         <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImSurajx" revision="13-4.4" />
@@ -19,9 +25,16 @@
 
         <remove-project name="vendor_aosp" />
         <project path="vendor/aosp" name="vendor_aosp" remote="Stable-Stuffs" revision="thirteen-plus" />
+        <remove-project name="hardware_qcom-caf_msm8998_audio" /> 
+        <remove-project name="hardware_qcom-caf_msm8998_media" />         
+        <remove-project name="hardware_qcom-caf_msm8998_display" /> 
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-13.0-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-13.0-caf-msm8998" />        
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-13.0-caf-msm8998" />
 
 <!-- Extra's -->
 
         <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajx" revision="13-4.4" />
-        
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="home_lab" revision="master" clone-depth="1" />
+
 </manifest>
