@@ -12,8 +12,8 @@
         <remote name="ImSurajxD" 
                 fetch="https://gitlab.com/ImSurajxD" />
 
-       	<remote name="home_lab"
-                fetch="https://gitlab.com/sanjeevstunner"/>
+       	<remote name="ArrowOS-Devices"
+                fetch="https://github.com/ArrowOS-Devices"/>
        
 <!-- Device Trees -->
 
@@ -29,6 +29,6 @@
 <!-- Extra's -->
 
         <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="home_lab" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" clone-depth="1" />
 
 </manifest>
