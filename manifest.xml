@@ -11,6 +11,9 @@
 
         <remote name="ImSurajxD" 
                 fetch="https://gitlab.com/ImSurajxD" />
+
+       	<remote name="home_lab"
+                fetch="https://gitlab.com/sanjeevstunner"/>
        
 <!-- Device Trees -->
 
@@ -26,5 +29,6 @@
 <!-- Extra's -->
 
         <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
-        
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="home_lab" revision="master" clone-depth="1" />
+
 </manifest>
