@@ -2,9 +2,6 @@
 <manifest>
 
 <!-- Fetching Sources -->
-        
-        <remote name="ImSurajx"
-                fetch="https://github.com/ImSurajx" />
 
         <remote name="Stable-Stuffs"
                 fetch="https://github.com/Stable-Stuffs" />
@@ -14,9 +11,9 @@
        
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImSurajx" revision="12L" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImSurajx" revision="12L" />
-        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender" remote="ImSurajx" revision="12L" clone-depth="1" />
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="Stable-Stuffs" revision="12L" />
+        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="Stable-Stuffs" revision="12L" />
+        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender" remote="Stable-Stuffs" revision="12L" clone-depth="1" />
         
 <!-- Replacement -->
 
