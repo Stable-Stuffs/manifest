@@ -8,6 +8,9 @@
 
         <remote name="Stable-Stuffs"
                 fetch="https://github.com/Stable-Stuffs" />
+
+        <remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
        
 <!-- Device Trees -->
 
@@ -22,6 +25,6 @@
 
 <!-- Extra's -->
 
-        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajx" revision="Master" />
+        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajxD" revision="Master" />
         
 </manifest>
