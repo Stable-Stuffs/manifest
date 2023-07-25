@@ -11,9 +11,9 @@
        
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImSurajx" revision="13-4.4" />
-        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImSurajx" revision="13-4.4" />
-        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender" remote="ImSurajx" revision="13-4.4" clone-depth="1" />
+        <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImSurajx" revision="13.0" />
+        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImSurajx" revision="13.0" />
+        <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender" remote="ImSurajx" revision="13.0" clone-depth="1" />
         
 <!-- Replacement -->
 
@@ -22,6 +22,6 @@
 
 <!-- Extra's -->
 
-        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajx" revision="13-4.4" />
+        <project path="packages/apps/android" name="packages_apps_android" remote="ImSurajx" revision="Master" />
         
 </manifest>
